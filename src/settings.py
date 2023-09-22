@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "38-Cloud"
 PROJECT_NAME_FULL: str = "38-Cloud: Cloud Segmentation in Satellite Images"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -62,7 +62,7 @@ ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Simon Fraser University, 
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.sfu.ca/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__PRETEXT__":"Additionally, every one-channel image grouped by its ***image_id*** and ***channel*** tag. Explore them in supervisely advanced labeling tool"}
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__PRETEXT__":"Additionally, every one-channel image has ***channel*** tag and grouped by its ***image_id***. Explore them in supervisely advanced labeling tool"}
 TAGS: Optional[List[str]] = None
 
 
