@@ -1,6 +1,6 @@
 Dataset **38-Cloud** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/m/D/5n/rddrKElQcZ556kTnMUmBDlrkkaFZD5y1QvzQs4yFTzSzqpyjsGLMOWoEXMVfhCkXthZ9GIX9WMvHHzCYqYzE4GnnCtbbBFL06lFkSXuOVF1xFRCeJmTXWPGzktxC.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/a/B/0f/BHwzzAbNfepHJctH9e4irIH4EijrElXhBZzFnrvMdNIsQG1COK0HRtjWK9JrzPnp4jiHQqqcf1BOcS8Mr8R4rii8eLLFgVqouDTJCnYc1bXOvpqAKpHoVzs7M7Up.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
