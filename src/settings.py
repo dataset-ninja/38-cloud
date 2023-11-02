@@ -51,12 +51,14 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
+
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://ieeexplore.ieee.org/abstract/document/8898776", "https://arxiv.org/abs/1810.05782"]
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = "https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset"}
 
 CITATION_URL: Optional[str] = "https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset#evaluation-over-38-cloud-dataset"
 AUTHORS: Optional[List[str]] = ["Sorour Mohajerani", "Thomas A. Krammer", "Parvaneh Saeedi"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["https://github.com/SorourMo", "https://www.researchgate.net/profile/Sorour-Mohajerani-2"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Simon Fraser University, Canada"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.sfu.ca/"]
@@ -110,6 +112,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
