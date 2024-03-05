@@ -65,7 +65,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.sfu.ca/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
 SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__PRETEXT__":"Additionally, every one-channel image has ***channel*** tag and grouped by its ***image_id***. Explore them in supervisely advanced labeling tool"}
-TAGS: Optional[List[str]] = None
+TAGS: Optional[List[str]] = ['multi-view']
 
 
 SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
